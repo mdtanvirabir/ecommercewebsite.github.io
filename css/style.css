@@ -1,0 +1,192 @@
+
+* {
+	margin: 0;
+	padding:0;
+	background-color: solid;
+	box-sizing:border-box;
+	text-align: center;
+	
+}
+.navbar {
+    border-radius: 0 !important;
+}
+
+#home,#buy{
+  background-color: white;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#view-cart-button{
+  background-color:white;
+  border: none;
+  color: grey;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+header {
+  background-color:white;
+  color: #fff;
+
+  align-items: center;
+  padding: 20px;
+  font-size: 25px;
+  text-align:center;
+  font-family: Impact;
+}
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+ 
+
+.productField-list {
+	display:table;
+	width:100%;
+	list-style-type:none;
+}
+#productDetails {
+	display:table;
+	width:100%;
+	list-style-type:none;
+}
+#prImage{
+	width:100%;
+	height:100%;
+}
+
+select{
+width:100%;
+padding:12px;
+border:1px solid #ccc;
+box-sizing:border-box;
+font-size=16px;
+}
+
+.container {
+  justify-content: space-around;
+  padding: 50px 10%;
+}  
+.dropzone-wrapper {
+  border: 2px dashed #91b0b3;
+  color: #92b0b3;
+  position: relative;
+  height: 150px;
+}
+ 
+.dropzone-desc {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 40%;
+  top: 50px;
+  font-size: 16px;
+}
+ 
+.dropzone,
+.dropzone:focus {
+  position: absolute;
+  outline: none !important;
+  width: 50%;
+  height: 150px;
+  cursor: pointer;
+  opacity: 0;
+} 
+.dropzone-wrapper:hover,
+.dropzone-wrapper.dragover {
+  background: #ecf0f5;
+} 
+.preview-zone {
+  text-align: center;
+} 
+.preview-zone .box {
+  box-shadow: none;
+  border-radius: 0;
+  margin-bottom: 0;
+} 
+
+
+
+.displayImg img{
+	width:80px;
+}
+.productAddBox {
+    background: #999;
+    display: table;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.show-image {
+	
+}
+.table td {
+    vertical-align: middle !important;
+}
+.getImage-box {
+    position: relative;
+    overflow: hidden;
+    margin-top: 15px;
+	padding:5px;
+}
+.getImage-box input {
+	opacity:0;
+}
+.getImg-status {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background: #281090;
+    border-radius: 2px;
+    color: #ffffff;
+	line-height:32px;
+    pointer-events: none;
+}
+.edit {
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    color: #5bb95b;
+}
+.delete {
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    color: #d9534f;
+}
+.navbar-header {
+    display: block;
+    width: 100%;
+}
+
+.navbar-inverse {
+    background-color: #0bd1a1;
+    border: 0px solid;
+}
+input{
+	padding:6px;
+	width:100%;
+	
+}
+
+
+.col-lg-6{
+
+	width:auto;
+	background-color: lightgreen;
+}
+
+
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+<div class="sitename">
+	<img src="images/jk.png" alt="My Company Logo" height="50" width="80"/>
+      <h1>JKstyle</h1>
+</div>
+	<nav>
+	<ul>
+          <li><a href="index.html">HOME</a></li>
+	  <li><a href="Local_storage_Product_Add.html">Admin Product Update</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+	</ul>
+	</nav>
+    </header>
+
+<div class="slider">
+  <div class="slides">
+    <img src="images/d1bbb925-5117-4da4-bc9e-1696944d09a1.jpg_1200x1200.jpg">
+    <img src="images/00cdec01-4b31-4fa6-bd8c-149dda0cb1dd.jpg">
+    <img src="images/570d1166-fbb1-4da3-9e3c-80416fc4747e.jpg">
+    <img src="images/2dce4e33-23ae-44fe-9801-bfcae319991a.jpg">
+    <img src="images/8feeadd0-f5f2-45eb-b81a-cd15004ef004.jpg">
+    <img src="images/9ca165c6-266d-406b-b286-3c88a77b75bd.jpg">
+    <img src="images/a7a29bf5-da57-40c4-903b-360f6522e078.jpg">
+  </div>
+  <div class="arrow left">&#10094;</div>
+  <div class="arrow right">&#10095;</div>
+</div>
+
+<div class="search-container">
+  <input id="search-input" type="text" placeholder="Search...">
+  <button id="search-button" type="submit">Search</button>
+</div>
+
+<div id="category-filters">
+      <button data-category="All-Catagory">All-Catagory</button>
+      <button data-category="Groceries & Pets">Groceries & Pets</button>
+      <button data-category="Health & Beauty">Health & Beauty</button>
+      <button data-category="Electronic Accessories">Electronic Accessories</button>
+      <button data-category="Men's & Boys' Fashion">Men's & Boys' Fashion</button>
+      <button data-category="Babies & Toys">Babies & Toys</button>
+      <button data-category="Women's & Girls' Fashion">Women's & Girls' Fashion</button>
+      <button data-category="Sports & Outdoors">Sports & Outdoors</button>
+    </div>
+
+    <main id="product-list"></main>
+
+<section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>       
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <h4>Trainee ID: 1271832</h4>
+        <h4>My Name is : [Md. Tanvir Abir] </h4>
+        <h4>Batch: CS/USSL-A/53/01 </h4>
+	<div><img src="images/Tanvir.jpeg" alt="" height=100px;></div>
+      </section>
+<footer>
+      <p>&copy; 2023 JkStyle online. All Rights Reserved</p>
+    </footer>
+    <div id="cart">
+      <h2>Cart</h2><ion-icon name="cart"></ion-icon>
+      <ul id="cart-items"></ul>
+      <p id="cart-total">Total: $0.00  </p><hr>
+<button id="checkout-button" onclick="checkout()">Checkout</button>
+    
+      <script src="main.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="Ecommerce\JsProduct\main.js"></script>
+
+  </body>
+</html>

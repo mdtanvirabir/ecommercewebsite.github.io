@@ -1,0 +1,303 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+img {
+  margin: 7px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-image: url('Images/desktop-wallpaper-ecommerce-website-design-gorakhpur-web-design-and-development-company-e-commerce.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  width:auto;
+  position: relative;
+  font-size:10px;
+}
+
+.slider {
+  position: relative;
+  width: 90%;
+  height: auto;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  height: 280px%;
+  transition: transform 0.9s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: 200px%;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.sitename {
+  margin: 0;
+  font-size: 18px;
+  display: flex;
+  color: #fff;
+}
+
+#search-bar {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type=text] {
+  padding: 10px;
+  border: 1px solid;
+  border-radius:15px;
+  width: 20%;
+}
+
+button[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 9%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+
+nav ul li {
+  margin-right: 40px;
+}
+
+
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form button {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  display:flex;
+  height: auto;
+}
+
+form button:hover {
+  background-color: #111;
+}
+
+button {
+  padding: 10px;
+  background-color: lightgray;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+button {
+  padding: 10px;
+  background-color: skyblue;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.product img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-details {
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#cart {
+  position: fixed;
+  top: 150px;
+  right: 0;
+  width: 250px;
+  height: 50%;
+  background-color: #fff;
+  border-left: 3px solid #ddd;
+  padding: 20px;
+  overflow-y: auto;
+  display:block;
+}
+
+
+#cart-items li img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+#cart-items li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top:3px;
+  background-color:lightgreen;
+  border:none;
+  border-radius:5px;
+}
+
+
+#cart-total {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  border-top:2px solid black;
+}
+
+
+#cart-items li span {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+#cart-items li button {
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left:20px;
+  color: #333;
+}
+
+#cart h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+#cart-total {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#contact{
+  font-size: 15px;
+  font-family: Arial
+}
+
+#contact-form label{
+  font-size: 15px;
+
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  height: 35px;
+}

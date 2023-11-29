@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Add</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>  
+<header>
+<nav class="navbar navbar-inverse">
+<div class="navbar-header">
+	<h2>Add Product</h2>	
+<p><a href="index.html" target="_blank">Back To SHOP</a></p>
+</div>
+</nav>
+
+</header>
+<section class="productArea">
+<div class="container">
+<div class="row">
+<div class="col-lg-8 col-md-8">
+<div class="productAddBox">
+<h2 id="headStatus">Add Product</h2>
+<div class="col-lg-12">
+<div class="form-group">
+	<ul class="productField-list">
+		<li><label>Name:</label></li>
+		<li><input type="text" id="productName" name="productName"></li>
+	</ul>
+</div>
+<div class="form-group">
+	<ul class="productField-list">
+		<li><label>Details:</label></li>
+		<li><input type="text"  id="productDetails" name="productDetails"></li>
+	</ul>
+</div>
+
+<div class="form-group">
+	<ul class="productField-list">
+		<li><label>Product Price:</label></li>
+		<li><input type="number"  id="productPrice" name="productPrice"></li>
+	</ul>
+</div>
+<div class="form-group">
+	<ul class="productField-list">
+		<li><label>Category:</label></li>
+		<li><select name="category" id="category">
+			<option value="">------Select Category------</option>
+			<option value="Groceries & Pets">Groceries & Pets</option>
+			<option value="Health & Beauty">Health & Beauty</option>
+			<option value="Electronic Accessories">Electronic Accessories</option>
+			<option value="Men's & Boys' Fashion">Men's & Boys' Fashion</option>
+			<option value="Babies & Toys">Babies & Toys</option>
+			<option value="Women's & Girls' Fashion">Women's & Girls' Fashion</option>
+			<option value="Sports & Outdoors">Sports & Outdoors</option>
+		</select></li>
+	</ul>
+</div>
+
+<div class="form-group">
+	<ul class="productField-list">
+		<li><label>Quantity:</label></li>
+		<li><input type="number" id="quantity" name="quantity" /></li>
+	</ul>
+</div>
+
+<div class="form-group">
+	<ul class="productField-list">
+		<li><label>Date:</label></li>
+		<li><input type="date" id="date" name="date"/></li>
+	</ul>
+</div>
+
+<div class="form-group" >
+	<ul class="productField-list">
+		<li> <label for="productAvailability">Availability:</label></li>
+		<li><select id="productAvailability">
+        <option value="">--Please select--</option>
+        <option value="In Stock">In Stock</option>
+        <option value="Out of Stock">Out of Stock</option>
+      </select></li>
+	</ul>
+</div>
+</div>
+
+
+<div class="col-md-5">
+<div class="show-image">
+<img src="images/placeholder.png" alt="" id="holdImg" class="img-responsive">
+</div>
+</div>
+	
+<div class="form-group"> 
+	<ul class="productField-list">
+		<div class="dropzone-wrapper">
+			<input type="file" name="prImage" id="prImage" class="dropzone">
+			<div class="dropzone-desc">
+			    <p>Choose an Image file or Drag it here.</p>
+			</div>
+		</div>
+	</ul>
+</div>
+
+<div class="form-group">
+<ul class="productField-list">
+<li>&nbsp;</li>
+<li><button id="addBtn" class=" btn-success addBtn">Add Product</button></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div class="col-lg-6 ">
+<div class="showProductTable">
+<h3>Product Table</h3>
+<table id="productTable" class="table-responsive table-bordered">
+
+</table>
+<button id="clearBtn" class="btn-danger">All Clear</button>
+</div>
+</div>
+</div>
+</div>
+</section>  
+	
+	<script src="scripts/jquery-3.6.4.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/custom.js"></script>
+</body>
+</html>
